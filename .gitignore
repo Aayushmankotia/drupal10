@@ -1,0 +1,40 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Drupal core files (managed by Composer)
+core/
+
+# Ignore contributed modules and themes (Composer-managed)
+/modules/contrib/
+/themes/contrib/
+
+# Ignore custom modules/themes if needed (optional)
+/modules/custom/
+/themes/custom/
+
+# Ignore config sync files (optional)
+/config/sync/
+
+# Ignore Drupal-generated files
+/sites/*/files/
+sites/*/private/
+sites/*/settings*.php
+sites/*/services*.yml
+
+# Ignore temporary and cache files
+/tmp/
+*.log
+*.cache
+*.gz
+
+# Ignore IDE/editor config
+.idea/
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.local
